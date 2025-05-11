@@ -1,11 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Benim Sitem</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Minecraft Bedrock Tools</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Merhaba, dünya!</h1>
-  <p>Bu benim test sitem.</p>
+  <header>
+    <h1>Minecraft Bedrock Tools</h1>
+    <p>Skin değiştirme, mod yükleme ve daha fazlası</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Faydalı Linkler</h2>
+      <ul>
+        <li><a href="https://www.minecraft.net/en-us/marketplace">Minecraft Marketplace</a></li>
+        <li><a href="https://mcpedl.com">MCPEDL (Mod, Addon vs)</a></li>
+        <li><a href="https://namemc.com">NameMC (Skinler)</a></li>
+        <li><a href="https://realms.gg/1234-5678">Realm Daveti (örnek)</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Seed Generator</h2>
+      <button onclick="generateSeed()">Yeni Seed Üret</button>
+      <p id="seedResult"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Hazırlayan: Senin Adın – Minecraft Bedrock için basit araçlar</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
